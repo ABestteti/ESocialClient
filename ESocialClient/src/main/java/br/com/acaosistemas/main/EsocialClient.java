@@ -11,7 +11,7 @@ public class EsocialClient {
 	
 	public void ubiEnviarLoteEvento() {
 		eSocialService = new UBIESocialService();
-		// Lote da Acao
+		// Lote da Acao Sistemas
 		String enviarLoteAcao = eSocialService.enviarLote(1801071735303102480L);
 		
 		// Lote da Agens
